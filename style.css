@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-style: oblique;
+}
+
+
+/**footer*/
+.footerl{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+/*cierra footer*/
+
+
+/*INDEX*/
+
+/*IMAGEN DE BODY*/
+body{
+    background-image: url(imagenes/fondo6.jpg);
+    background-size: cover;
+    position: relative;
+}
+/*CIERRA IMAGEN */
+
+/*IMAGEN HEADER Y HEADER*/
+.disabled{
+    width: 40%;
+    position: relative;
+    z-index: 9999;
+}
+
+.header{
+    background: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    z-index: inherit;
+ }
+
+a:active{
+    background-color: pink;
+    color: black;
+}
+
+a:hover{
+    padding: 20px;
+    color: pink;
+}
+
+/*CIERRA HEADER*/
+
+
+
+
+
+/*DESCRIPCION EMPRENDIMIENTO*/
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.descripcion{
+    display: flex;
+    justify-content:center;
+    padding: 45px 45px 45px 35px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: plum;
+    margin: 30px;
+}
+
+
+
+.titulo2{
+    
+    padding: 15px 15px 15px 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+/*carroucel de imagenes*/
+.titulo-carrus{
+color: white;
+background-color: palevioletred;
+}
+
+
+.d-block{
+    width: 380px;
+}
+
+.carousel-caption{
+    color: black;
+    background-color: pink;
+}
+ /*CIERRA CARRU*/
+
+
+
+/*CIERRA INDEX*/
+
+
+/*CATALOGO*/
+
+/*LISTA DE PRECIOS*/
+.catalogo{
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: lighter;
+    text-decoration: double;
+}
+/*CIERRA LISTA DE PRECIOS*/
+
+/*CUIDADOS*/
+.cuidados{
+    font-size: medium;
+}
+
+/*CIERRA CUIDADOS*/
+
+
+/*NUESTRO STAFF*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
+.parent img{
+    width: 240px;
+}
+
+.texto-carru{
+    display: flex;
+    justify-content: center;
+    right: 50%;
+    color: blueviolet;
+}
+
